@@ -4,7 +4,6 @@ Posetrace videos and camera poses for the ULB NoLa (non-Lambertian) test sequenc
 **Aquarium** and **BelgianBeer**, rendered from per-frame Gaussian-splat reconstructions
 (gsplat simple_trainer, 30k steps, full resolution, shared rig poses). Browse them at
 https://hamedrk89.github.io/nola-posetraces/.
-Copy of the original site at https://lisa-vr.github.io/nola-posetraces/ (https://github.com/LISA-VR/nola-posetraces).
 
 Every trace comes in two versions: `_clean` (floaters removed: a Gaussian must weigh at least
 0.5 px in at least 4 rig views, and lie at world z in [4, 11]) and `_raw` (the training as is).
